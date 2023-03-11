@@ -6,7 +6,7 @@ const header = document.querySelector('.ink');
 const todoInput = document.querySelector('.todo-input');
 const game =document.getElementById('game');
 
-
+//manos edited this
 
 checkButton.addEventListener('click',createTodo);
 
