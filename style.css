@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(109, 109, 240);
+}
+header{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    color:rgb(244, 188, 86)
+
+}
+
+.todo-input{
+   margin-left: 37%;
+   padding: 11px 60px;
+   margin-top: 20px;
+   
+
+}
+
+.flag{
+    margin-left:37% ;
+    margin-top: 15px;
+    
+}
+
+.delete-btn,.check-btn,.update-btn{
+ padding: 10px 15px;
+ margin: 20px;
+ background-color: rgb(97, 94, 94);
+ color: white;
+ border-radius: 15px;
+ border: none;
+ font-size: 15px;
+ 
+}
+
+.bug{
+    width: 180px;
+    height: 65px;
+    background-color:white;
+    font-size: 30px;
+    color:black;
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+   
+
+}
+.case{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 20px;
+    flex-direction: column;
+    
+}
+

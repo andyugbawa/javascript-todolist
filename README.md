@@ -1,2 +1,2 @@
 # javascript-todolist
-vanilla javascript-todolist
+Todolist created in vanilla javascript
