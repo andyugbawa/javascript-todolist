@@ -29,7 +29,7 @@ header{
     
 }
 
-.delete-btn,.check-btn,.update-btn{
+.delete-btn,.check-btn,.update-btn,.save-btn{
  padding: 10px 15px;
  margin: 20px;
  background-color: rgb(97, 94, 94);
@@ -60,5 +60,15 @@ header{
     margin: 20px;
     flex-direction: column;
     
+}
+
+.strike{
+    text-decoration: line-through;
+    text-decoration-style: double;
+}
+
+.under{
+text-transform: uppercase ;
+opacity: 0.5;
 }
 
