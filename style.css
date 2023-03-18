@@ -29,7 +29,7 @@ header{
     
 }
 
-.delete-btn,.check-btn,.update-btn,.save-btn{
+.delete-btn,.check-btn,.update-btn,.save-btn,.edit-btn{
  padding: 10px 15px;
  margin: 20px;
  background-color: rgb(97, 94, 94);
