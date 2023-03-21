@@ -1,10 +1,36 @@
 const checkButton= document.querySelector('.check-btn');
 const header = document.querySelector('.ink');
 const updateButton = document.querySelector('.update-btn');
-const completeButton = document.querySelector('.check-btn')
+const completeButton = document.querySelector('.check-btn');
 const todoInput = document.querySelector('.todo-input');
 const saveButton = document.querySelector('.save-btn');
 const game =document.getElementById('game');
+const sound = document.getElementById('click')
+
+
+
+
+
+const inputLoader = document.querySelector('input');
+const placeButton =document.querySelector('save-btn');
+let newLi = document.querySelector('li');
+
+newLi=localStorage.getItem('value')
+
+
+function editButton(){
+    localStorage.setItem('value','input.value');
+    newLi=localStorage.getItem('value')
+}
+
+
+
+
+
+
+
+
+
 checkButton.addEventListener('click',createTodo);
 
 function createTodo(){
@@ -28,6 +54,8 @@ function createTodo(){
     deleteButton.addEventListener('click',cancelButton)
     newDiv.appendChild(deleteButton)
     game.appendChild(newDiv)
+    deleteButton=document.getElementById(sound).play();
+
 
     const updateButton = document.createElement('button');
     updateButton.id=todoInput.value;
