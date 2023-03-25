@@ -69,6 +69,7 @@ function createTodo(){
 
 function cancelButton(e){
     e.target.parentElement.remove();
+    playSound()
 
 }
 
