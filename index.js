@@ -54,7 +54,7 @@ function createTodo(){
     deleteButton.addEventListener('click',cancelButton)
     newDiv.appendChild(deleteButton)
     game.appendChild(newDiv)
-    deleteButton=document.getElementById(sound).play();
+    // deleteButton=document.getElementById(sound).play();
 
 
     const updateButton = document.createElement('button');
