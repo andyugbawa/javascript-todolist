@@ -69,6 +69,7 @@ function createTodo(){
 
 function cancelButton(e){
     e.target.parentElement.remove();
+
 }
 
 function update(e){ 
@@ -79,6 +80,11 @@ function update(e){
         e.target.parentElement.firstChild.classList.add('strike');
     }
 }
+
+function playSound() {
+    let audio = document.getElementById("myAudio");
+    audio.play();
+  }
 
 function editButton(e){
     let editElement = e.target.parentElement.children;
