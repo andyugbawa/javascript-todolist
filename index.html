@@ -12,27 +12,16 @@
     Create a Todolist
   </header>
 
-  <form>
-    <input type="text" class="todo-input" placeholder="Enter List.....">
+  <form id="input-form" >
+    <input type="text" class="todo-input" placeholder="Type something.....">
   </form>
 
-  <audio id="myAudio">
-    <source src="./Sound/click.wav" type="audio/mp3">
-  </audio>
-
-  <button onclick="playSound()">Play Sound</button>
-
-  <div class="flag">
-    <button  class="check-btn">Add Todo</button>
+  <div class="margin">
+    <button  class="create-todo-btn">Create Todo</button>
   </div>
+  <audio src="./Sound/click.wav" id="click"></audio>
 
- <!-- <audio src="/Sound/click.wav" id="click"></audio> -->
-
-
-
-
-
-  <div id="game"></div>
+  <div id="todos"></div>
 
   <script src="./index.js"></script>
 </body>
